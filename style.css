@@ -1,0 +1,102 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    float: left;
+    width: 30%;
+    background-color: rgb(134, 201, 255);
+    padding: 40px;
+    color: rgb(52, 52, 52);
+}
+.fotoProfilo{
+    width: 80%;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 3px solid blue;
+    margin-bottom: 20px;
+}
+.desc {
+    color: rgb(52, 52, 52);
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgb(52, 52, 52);
+    padding-bottom: 20px;
+}
+.contatti{
+    border-bottom: 1px solid rgb(52, 52, 52);
+    padding-bottom: 20px;
+}
+.contatti ul{
+    padding: 0;
+    margin: 0;
+}
+.contatti ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.contatti ul li span{
+    width: 40px;
+    padding: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contatti ul li p{
+    padding-left: 8px;
+}
+.competenze{
+    border-bottom: 1px solid rgb(52, 52, 52);
+    padding-bottom: 20px;
+}
+.competenze ul{
+    padding: 0;
+    margin: 0;
+}
+.lingue ul{
+    padding: 0;
+    margin: 0;
+}
+.right{
+    float: right;
+    width: 70%;
+    background-color: white;
+    padding: 40px;
+}
+.right h1 {
+    font-size: 3rem;
+}
+.right span{
+    margin-right: 20px;
+}
+.right b{
+    font-size: 1.6rem;
+    color: rgb(2, 70, 204);
+}
+.right li{
+    margin-bottom: 10px;
+}
+.elencoEsperienze{
+    list-style: circle;
+}
+.elencoMansioni{
+    list-style: square;
+}
+.autorizzazioneDati{
+    margin-top: 50px;
+    font-weight: bold;
+}
+#firma{
+    max-width: 300px;
+}
